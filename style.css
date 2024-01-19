@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFA9AE;
+}
+
+#app{
+    text-align: center;
+    background-color: #E55381;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.title{
+    margin: 10px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E55381;
+    padding: 8px 0;
+}
+
+#taskInput{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #9B9987;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
